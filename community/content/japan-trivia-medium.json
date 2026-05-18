@@ -126,12 +126,6 @@
     "correctIndex": 0
   },
   {
-    "question": "Which season is associated with red maple leaves (momiji) in Japan?",
-    "difficulty": "medium",
-    "answers": ["Spring", "Summer", "Autumn", "Winter"],
-    "correctIndex": 2
-  },
-  {
     "question": "What is the Japanese term for a traditional paper umbrella?",
     "difficulty": "medium",
     "answers": ["Wagasa", "Sensu", "Uchiwa", "Furoshiki"],
@@ -190,5 +184,88 @@
     "difficulty": "medium",
     "answers": ["Sado", "Chado", "Ikebana", "Kado"],
     "correctIndex": 1
-  }
+  },
+  {
+    "question": "What is the Japanese term for new year?",
+    "difficulty": "medium",
+    "answers": [
+      "Shogatsu",
+      "Obon",
+      "Tanabata",
+      "Hinamatsuri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the Japanese term for a traditional tea ceremony?",
+    "difficulty": "medium",
+    "answers": [
+      "Sado",
+      "Kado",
+      "Budo",
+      "Shodo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which season is associated with red maple leaves (momiji) in Japan?",
+    "difficulty": "medium",
+    "answers": ["Spring", "Summer", "Autumn", "Winter"],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the name of the traditional Japanese garment often worn at festivals? (Community variation 13)",
+    "difficulty": "medium",
+    "answers": [
+      "Yukata",
+      "Haori",
+      "Hakama",
+      "Tabi"
+    ],
+    "correctIndex": 0
+  },
+  {
+  "question": "Which of these is a Japanese traditional storytelling art?",
+  "difficulty": "medium",
+  "answers": [
+    "Rakugo",
+    "Kabuki",
+    "Noh",
+    "Ikebana"
+  ],
+  "correctIndex": 0
+  },
+  {
+    "question": "What is the Japanese writing system used for foreign words? (Community variation 35)",
+    "difficulty": "medium",
+    "answers": [
+      "Katakana",
+      "Hiragana",
+      "Kanji",
+      "Romaji"
+    ],
+    "correctIndex": 0
+  },
+  {
+  "question": "Which Japanese beverage is made from roasted barley?",
+  "difficulty": "medium",
+  "answers": [
+    "Mugicha",
+    "Matcha",
+    "Genmaicha",
+    "Sencha"
+  ],
+  "correctIndex": 0
+  },
+  {
+  "question": "Which Japanese city is known for its deer roaming freely in a large park?",
+  "difficulty": "medium",
+  "answers": [
+    "Nara",
+    "Yokohama",
+    "Kobe",
+    "Nagoya"
+  ],
+  "correctIndex": 0
+}
 ]
