@@ -81,8 +81,8 @@ const SubsetNew = ({ sliceRange, subgroup }: SubsetProps) => {
         const progressFraction = getRowProgressFraction(group.kana);
         const progressPercent = Math.round(progressFraction * 100);
 
-        const isLastInSubset = i === kanaGroups.length - 1;
         const selected = isChecked(i);
+        const isLastInSubset = i === kanaGroups.length - 1;
 
         // Mirror the selection.ts label: "${firstKana}-group"
         const firstKana = group.kana[0] ?? '';
@@ -101,9 +101,9 @@ const SubsetNew = ({ sliceRange, subgroup }: SubsetProps) => {
           >
             {/* Progress Bar */}
             <div className='w-full'>
-              <div className='h-8 w-full overflow-hidden rounded-2xl bg-(--background-color)'>
+              <div className='h-7 w-full overflow-hidden rounded-[1rem] bg-(--background-color)'>
                 <div
-                  className='h-full rounded-2xl transition-all duration-500'
+                  className='h-full rounded-[1rem] transition-all duration-500'
                   style={{
                     width: `${progressPercent}%`,
                     background:
@@ -122,8 +122,8 @@ const SubsetNew = ({ sliceRange, subgroup }: SubsetProps) => {
                 addKanaGroupIndex(getGlobalIndex(i));
               }}
               className={clsx(
-                'group flex items-center justify-start gap-2 text-2xl w-full',
-                'rounded-3xl hover:cursor-pointer',
+                'group flex items-center justify-center gap-2 text-[1.5rem] w-full',
+                'rounded-[1.5rem] hover:cursor-pointer',
                 'transition-all duration-250 ease-in-out',
                 'border-b-10 px-2 py-3',
                 selected
@@ -138,18 +138,18 @@ const SubsetNew = ({ sliceRange, subgroup }: SubsetProps) => {
               ) : (
                 <Circle className='mt-0.5 text-(--border-color) duration-250' />
               )}
-              select {rowLabel}
+              {rowLabel}
             </button>
 
             {/* Kana row (large) + Romaji row (smaller), both left-aligned */}
-            <div className='flex flex-col items-start gap-1 w-full'>
+            <div className='flex flex-col items-start gap-2 w-full'>
               <div
-                className='text-5xl font-light text-(--main-color) tracking-wide'
+                className='text-[3rem] font-normal text-(--main-color) tracking-wide'
                 lang='ja'
               >
                 {renderSeparatedText(group.kana, 'text-(--border-color)')}
               </div>
-              <div className='text-3xl font-normal text-(--secondary-color) tracking-wide'>
+              <div className='text-[1.5rem] font-normal text-(--secondary-color) tracking-wide'>
                 {renderSeparatedText(group.romanji, 'text-(--border-color)')}
               </div>
             </div>
