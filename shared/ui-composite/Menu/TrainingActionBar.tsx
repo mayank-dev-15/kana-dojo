@@ -274,33 +274,33 @@ const TrainingActionBar: React.FC<ITopBarProps> = ({
               )}
             >
               {[
-                {
-                  id: 'blitz',
-                  label: 'Blitz',
-                  Icon: Zap,
-                  iconClassName: 'fill-current motion-safe:animate-none',
-                  show: showBlitz,
-                  colorScheme: 'secondary' as const,
-                  onClick: () => {
-                    setGameModesMode('blitz');
-                    setShowGameModesModal(true);
-                  },
-                },
-                {
-                  id: 'gauntlet',
-                  label: 'Gauntlet',
-                  Icon: Swords,
-                  iconClassName: 'fill-current',
-                  show: showBlitz,
-                  colorScheme: 'secondary' as const,
-                  onClick: () => {
-                    setGameModesMode('gauntlet');
-                    setShowGameModesModal(true);
-                  },
-                },
+                // {
+                //   id: 'blitz',
+                //   label: 'Blitz',
+                //   Icon: Zap,
+                //   iconClassName: 'fill-current motion-safe:animate-none',
+                //   show: showBlitz,
+                //   colorScheme: 'secondary' as const,
+                //   onClick: () => {
+                //     setGameModesMode('blitz');
+                //     setShowGameModesModal(true);
+                //   },
+                // },
+                // {
+                //   id: 'gauntlet',
+                //   label: 'Gauntlet',
+                //   Icon: Swords,
+                //   iconClassName: 'fill-current',
+                //   show: showBlitz,
+                //   colorScheme: 'secondary' as const,
+                //   onClick: () => {
+                //     setGameModesMode('gauntlet');
+                //     setShowGameModesModal(true);
+                //   },
+                // },
                 {
                   id: 'classic',
-                  label: 'Classic',
+                  label: 'Go',
                   Icon: Play,
                   iconClassName: isFilled ? 'fill-current' : '',
                   show: true,
