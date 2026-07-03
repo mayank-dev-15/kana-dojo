@@ -692,5 +692,16 @@
     "Sendai"
   ],
   "correctIndex": 0
+},
+{
+  "question": "What is the traditional Japanese art of paper folding called?",
+  "difficulty": "medium",
+  "answers": [
+    "Origami",
+    "Ikebana",
+    "Shodo",
+    "Bonsai"
+  ],
+  "correctIndex": 0
 }
 ]
